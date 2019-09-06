@@ -10,7 +10,7 @@ app.use(bodyparse.json());
 app.use(cors());
 
 //const PORT = 2000;
-const PORT = process.env.PORT || 2000
+const PORT = process.env.PORT || 3000
 
 
 app.get('/', (request,response) =>{
